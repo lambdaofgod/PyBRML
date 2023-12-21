@@ -5,14 +5,14 @@
 
 from .potential import potential
 from .variable import variable
-from multpots import multpots
-from dag import dag
-from intersect import intersect
-from setminus import setminus
-from myzeros import myzeros
-from ismember import ismember
-from setstate import setstate
-from setpot import setpot
+from .multpots import multpots
+from .dag import dag
+from .intersect import intersect
+from .setminus import setminus
+from .myzeros import myzeros
+from .ismember import ismember
+from .setstate import setstate
+from .setpot import setpot
 
 
 __all__ = ['potential',

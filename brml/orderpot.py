@@ -7,8 +7,8 @@
 
 import numpy as np
 import copy
-from IndexToAssignment import IndexToAssignment
-from potential import potential
+from .IndexToAssignment import IndexToAssignment
+from .potential import potential
 
 
 def orderpot(pot, varargin):
